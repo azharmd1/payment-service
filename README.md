@@ -15,8 +15,7 @@ Payment Service is a Spring Boot application designed to facilitate online payme
 7. [Database Schema](#database-schema)
 8. [Project Structure](#project-structure)
 9. [Running Tests](#running-tests)
-10. [Contributing](#contributing)
-11. [License](#license)
+10. [License](#license)
 
 ## Requirements
 
