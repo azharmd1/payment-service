@@ -117,25 +117,27 @@ payment-service/
 │   ├── main/
 │   │   ├── java/
 │   │   │   └── com/
-│   │   │       └── example/
-│   │   │           └── payment/
-│   │   │               ├── controller/
-│   │   │               ├── model/
-│   │   │               ├── repository/
-│   │   │               ├── service/
-│   │   │               └── PaymentServiceApplication.java
+│   │   │       └── paymentservice/
+│   │   │           ├── configs/
+│   │   │           ├── controllers/
+│   │   │           ├── dtos/
+│   │   │           ├── models/
+│   │   │           ├── paymentgateways/
+│   │   │           ├── repositories/
+│   │   │           ├── services/
+│   │   │           └── PaymentServiceApplication.java
 │   │   └── resources/
 │   │       └── application.properties
 │   └── test/
 │       └── java/
 │           └── com/
-│               └── example/
-│                   └── payment/
-│                       └── PaymentServiceApplicationTests.java
+│               └── paymentservice/
+│                   └── PaymentServiceApplicationTests.java
 ├── .gitignore
 ├── README.md
 ├── pom.xml
 └── mvnw
+
 ```
 
 ## Running Tests
