@@ -1,2 +1,11 @@
-package com.paymentservice.dtos;public class CreatePaymentLinkRequestDto {
+package com.paymentservice.dtos;
+
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class CreatePaymentLinkRequestDto {
+    private Long orderId;
 }

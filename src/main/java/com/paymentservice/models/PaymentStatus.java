@@ -1,2 +1,8 @@
-package com.paymentservice.models;public class PaymentStatus {
+package com.paymentservice.models;
+
+public enum PaymentStatus {
+    SUCCESS,
+    FAILURE,
+    PENDING,
+    CANCELLED
 }
